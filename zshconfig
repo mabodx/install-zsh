@@ -73,3 +73,4 @@ alias gm='git mergetool'
 alias sc='npm run --silent sanity-check'
 alias cynmake=' cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -B build && cmake --build build -j 8'
 alias cydmake="/usr/bin/cmake -S/project -B/project/build -DBACKTESTING=ON  -DENABLE_HFTBACKEND_BINANCE=ON -DENABLE_STRATEGY_ALL=OFF -B build && cmake --build build -j 8"
+alias showip="hostname -I | awk '{print $1}'"
