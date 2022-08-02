@@ -76,3 +76,4 @@ alias cydmake="/usr/bin/cmake -S/project -B/project/build -DBACKTESTING=ON  -DEN
 alias showip="hostname -I | awk '{print $1}'"
 alias cdbma='cd /mnt/bma'
 alias cdwyan2='cd /mnt/wyan2'
+alias psh='pipenv shell'
